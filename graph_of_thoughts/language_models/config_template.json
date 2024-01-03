@@ -45,5 +45,26 @@
         "temperature": 0.6,
         "top_k": 10,
         "max_tokens": 4096
+    },
+    "chatglm3-6b" : {
+        "model_id": "chatglm3-6b",
+        "cache_dir": "/chatglm3",
+        "model_path": "/home/lc/projects/pretrained_models/chatglm3-6b",
+        "device": "cuda:0",
+        "prompt_token_cost": 0.0,
+        "response_token_cost": 0.0,
+        "temperature": 0.6,
+        "top_k": 10,
+        "max_tokens": 4096
+    },
+    "Baichuan2-13B-Chat" : {
+        "model_id": "Baichuan2-13B-Chat",
+        "cache_dir": "/baichuan2",
+        "model_path": "/home/lc/projects/pretrained_models/Baichuan2-13B-Chat",
+        "prompt_token_cost": 0.0,
+        "response_token_cost": 0.0,
+        "temperature": 0.6,
+        "top_k": 10,
+        "max_tokens": 4096
     }
 }
